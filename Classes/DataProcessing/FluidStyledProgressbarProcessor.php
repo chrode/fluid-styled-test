@@ -1,5 +1,5 @@
 <?php
-namespace Slub\FluidStyledProgressbar\DataProcessing;
+namespace Slub\FluidStyledTest\DataProcessing;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -43,7 +43,7 @@ class FluidStyledProgressbarProcessor implements DataProcessorInterface
 		array $processorConfiguration,
 		array $processedData
 	) {
-		$processedData['progressbar'] = json_encode($this->getOptionsFromFlexFormData($processedData['data']));
+		$processedData['progressbar'] = $this->getOptionsFromFlexFormData($processedData['data']);
 		return $processedData;
 	}
 

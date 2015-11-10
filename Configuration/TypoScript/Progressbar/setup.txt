@@ -1,6 +1,6 @@
 lib.fluidContent {
 	templateRootPaths {
-		100 = EXT:fluid_styled_test/Resources/Private/Templates
+		100 = EXT:fluid-styled-test/Resources/Private/Templates
 	}
 }
 tt_content {
@@ -8,18 +8,18 @@ tt_content {
 	fs_progressbar {
 		templateName = FluidStyledProgressbar
 		dataProcessing {
-			10 = Slub\FluidStyledProgressbar\DataProcessing\FluidStyledProgressbarProcessor
+			10 = Slub\FluidStyledTest\DataProcessing\FluidStyledProgressbarProcessor
 		}
 	}
 }
 
 [globalVar = LIT:1 = {$plugin.tx_fluidstyledtest.settings.includejQuery}]
 	page.includeJSFooterlibs {
-		jquery = EXT:fluid_styled_test/Resources/Public/Vendor/jquery/dist/jquery.min.js
+		jquery = EXT:fluid-styled-test/Resources/Public/Vendor/jquery/dist/jquery.min.js
 		jquery.disableCompression = 1
 	}
 [global]
 
 page.includeCSS {
-	progressbar = EXT:fluid_styled_test/Resources/Public/Css/Progressbar.css
+	progressbar = EXT:fluid-styled-test/Resources/Public/Css/Progressbar.css
 }

@@ -4,7 +4,7 @@ defined('TYPO3_MODE') or die();
 call_user_func(function () {
 
 	$languageFilePrefix = 'LLL:EXT:fluid_styled_content/Resources/Private/Language/Database.xlf:';
-	$customLanguageFilePrefix = 'LLL:EXT:fluid_styled_test/Resources/Private/Language/locallang_be.xlf:';
+	$customLanguageFilePrefix = 'LLL:EXT:fluid-styled-test/Resources/Private/Language/locallang_be.xlf:';
 	$frontendLanguageFilePrefix = 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:';
 
 	// Add the CType "fs_progressbar"
@@ -12,7 +12,7 @@ call_user_func(function () {
 		'tt_content',
 		'CType',
 		[
-			'LLL:EXT:fluid_styled_test/Resources/Private/Language/locallang_be.xlf:wizard.title',
+			'LLL:EXT:fluid-styled-test/Resources/Private/Language/locallang_be.xlf:wizard.title',
 			'fs_progressbar'
 		],
 		'after'
