@@ -1,6 +1,7 @@
 {
   "name": "slub/fluid-styled-test",
   "type": "typo3-cms-extension",
+  "version": "1.0.0",
   "description": "A test extension based on fluid_styled_content.",
   "keywords": [
     "TYPO3",
