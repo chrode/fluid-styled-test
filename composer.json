@@ -1,0 +1,30 @@
+{
+  "name": "slub/fluid-styled-test",
+  "type": "typo3-cms-extension",
+  "description": "A test extension based on fluid_styled_content.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "fluid"
+  ],
+  "authors": [
+    {
+      "name": "Christof Rodejohann",
+      "email": "christof.rodejohann@slub-dresden.de",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms-core": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slub\\FluidStyledTest\\": "Classes"
+    }
+  },
+  "replace": {
+    "fluid-styled-test": "self.version",
+    "typo3-ter/fluid-styled-test": "self.version"
+  }
+}

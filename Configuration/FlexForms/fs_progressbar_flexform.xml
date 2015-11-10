@@ -1,0 +1,23 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+        <langChildren>1</langChildren>
+    </meta>
+    <ROOT>
+        <type>array</type>
+        <el>
+            <options.current>
+                <TCEforms>
+                    <exclude>1</exclude>
+                    <label>
+                        LLL:EXT:fluid_styled_test/Resources/Private/Language/locallang_be.xlf:flexform.current
+                    </label>
+                    <config>
+                        <type>input</type>
+                        <eval>int</eval>
+                    </config>
+                </TCEforms>
+            </options.current>
+        </el>
+    </ROOT>
+</T3DataStructure>

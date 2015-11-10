@@ -1,0 +1,4 @@
+plugin.tx_fluidstyledtest.settings {
+	# cat=plugin.tx_fluidstyledtest/include; type=check; label=Include jQuery in JSFooterLibs
+	includejQuery = 1
+}
